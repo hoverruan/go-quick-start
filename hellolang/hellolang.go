@@ -18,8 +18,8 @@ func main() {
 
 	// const and iota
 	const (
-		No  = iota
-		Yes = iota
+		No = iota + 2
+		Yes
 	)
 	fmt.Printf("Yes = %d, No = %d\n", Yes, No)
 
